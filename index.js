@@ -35,8 +35,6 @@ async function run() {
 
       console.log('pagination query', page, size);
       const result = await productCollection.find()
-      .skip(page * size)
-      .limit(size)
       .toArray();
       res.send(result);
     })

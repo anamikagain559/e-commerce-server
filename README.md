@@ -40,9 +40,9 @@ Happy Mart is a full-stack e-commerce single-page application that allows users 
 
 ## Demo
 
-Live link to demo
+Live link 
 
-https://e-commerce-846d3.web.app/
+https://e-commerce-delta-cyan-39.vercel.app/
 
 
 
