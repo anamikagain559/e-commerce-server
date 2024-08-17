@@ -27,7 +27,6 @@ async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     // await client.connect();
-
     const productCollection = client.db('ecommerce').collection('products');
 
     app.get('/products', async (req, res) => {
@@ -42,7 +41,7 @@ async function run() {
       res.send(result);
     })
 
-    
+
     app.post('/productByIds', async(req, res) =>{
       const ids = req.body;
       const idsWithObjectId = ids.map(id => new ObjectId(id))
